@@ -5,6 +5,7 @@
 #services .container-services .ant-col {
     display: flex;
     flex-direction: column;
+    margin: 15px 0;
 }
 
 #services .container-services .ant-col .icon-box {

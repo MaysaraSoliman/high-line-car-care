@@ -11,7 +11,7 @@ const Services = () => {
     <section id="services">
       <div className="container container-services  animationAppearFromBottom">
         <Row gutter={18}>
-          <Col sm={24} md={8}>
+          <Col xs={24} md={8}>
             <div className="image-box">
               <div className="overlay-black"></div>
               <Image
@@ -38,7 +38,7 @@ const Services = () => {
               </Button>
             </div>
           </Col>
-          <Col sm={24} md={8}>
+          <Col xs={24} md={8}>
             <div className="image-box">
               <div className="overlay-black"></div>
               <Image
@@ -63,7 +63,7 @@ const Services = () => {
               </Button>
             </div>
           </Col>
-          <Col sm={24} md={8}>
+          <Col xs={24} md={8}>
             <div className="image-box">
               <div className="overlay-black"></div>
               <Image
