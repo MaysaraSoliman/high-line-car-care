@@ -64,5 +64,16 @@
 @media (max-width: 1130px) {
     #workingHours .container-working-hours {
         flex-direction: column;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 560px) {
+    #workingHours .container-working-hours .left-col {
+        flex-direction: column;
+    }
+
+    #workingHours .container-working-hours .left-col .image-col {
+        display: none;
     }
 }
