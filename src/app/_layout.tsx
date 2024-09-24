@@ -1,5 +1,6 @@
 import DesktopTopHeader from "@/components/header/mainHeader/desktopHeader/topHeader/DesktopTopHeader";
 import MainHeader from "@/components/header/mainHeader/MainHeader";
+import MainFooter from "@/components/MainFooter/MainFooter";
 import { Layout } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
 
@@ -15,7 +16,9 @@ const MainLayout = ({
         <MainHeader />
       </Header>
       <Content>{children}</Content>
-      <Footer>Footer</Footer>
+      <Footer>
+        <MainFooter />
+      </Footer>
     </Layout>
   );
 };
