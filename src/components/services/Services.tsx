@@ -2,6 +2,8 @@ import { Button, Col, Row } from "antd";
 import "./services.css";
 import Image from "next/image";
 import bodyRepairImage from "../../../public/assets/images/hero-section/car-body-polishing-process-at-the-detailing-workshop.jpg";
+import PaintImage from "../../../public/assets/images/services/services-bg-1.jpg";
+import MaintainenceImage from "../../../public/assets/images/hero-section/professional-manual-workers-repairing-car-in-mechanic-shop.jpg";
 import Title from "antd/es/typography/Title";
 import { FaCarCrash } from "react-icons/fa";
 import { GiAutoRepair, GiLargePaintBrush } from "react-icons/gi";
@@ -41,11 +43,7 @@ const Services = () => {
           <Col xs={24} md={8}>
             <div className="image-box">
               <div className="overlay-black"></div>
-              <Image
-                className="cover-image"
-                src={bodyRepairImage}
-                alt="Car care"
-              />
+              <Image className="cover-image" src={PaintImage} alt="Car care" />
             </div>
             <div className="text-box">
               <div className="icon-box">
@@ -68,7 +66,7 @@ const Services = () => {
               <div className="overlay-black"></div>
               <Image
                 className="cover-image"
-                src={bodyRepairImage}
+                src={MaintainenceImage}
                 alt="Body repair"
               />
             </div>
