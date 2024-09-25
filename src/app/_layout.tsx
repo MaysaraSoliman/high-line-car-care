@@ -1,6 +1,7 @@
 import DesktopTopHeader from "@/components/header/mainHeader/desktopHeader/topHeader/DesktopTopHeader";
 import MainHeader from "@/components/header/mainHeader/MainHeader";
 import MainFooter from "@/components/MainFooter/MainFooter";
+import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
 import { Layout } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
 
@@ -15,7 +16,10 @@ const MainLayout = ({
       <Header>
         <MainHeader />
       </Header>
-      <Content>{children}</Content>
+      <Content>
+        {children}
+        <ScrollToTop />
+      </Content>
       <Footer>
         <MainFooter />
       </Footer>
