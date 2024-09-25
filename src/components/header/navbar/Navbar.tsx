@@ -4,6 +4,11 @@ import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { StyledMenu } from "./navbar.styled";
 
+interface NavbarProps {
+  mode: string;
+  onClose?: () => void;
+}
+
 const items = [
   {
     label: <Link href="/">Home</Link>,
@@ -23,7 +28,7 @@ const items = [
   },
 ];
 
-const Navbar = ({ mode, onClose }: { mode: string; onClose: () => void }) => {
+const Navbar = ({ mode, onClose }: NavbarProps) => {
   const pathname = usePathname();
   const [current, setCurrent] = useState(pathname);
 
