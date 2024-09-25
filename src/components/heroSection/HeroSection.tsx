@@ -10,7 +10,7 @@ const HeroSection = () => {
     <StyledCarouselSection effect="fade" autoplay>
       <Slider
         firstTitle="Welcome to shinework"
-        secondTitle="Welcome to shinework Trust the professionals for a"
+        secondTitle="Trust the professionals for a"
         thirdTitle="clean and polished finish"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -20,7 +20,7 @@ const HeroSection = () => {
       />
       <Slider
         firstTitle="Welcome to shinework"
-        secondTitle="Welcome to shinework Trust the professionals for a"
+        secondTitle="Trust the professionals for a"
         thirdTitle="clean and polished finish"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -30,7 +30,7 @@ const HeroSection = () => {
       />
       <Slider
         firstTitle="Welcome to shinework"
-        secondTitle="Welcome to shinework Trust the professionals for a"
+        secondTitle="Trust the professionals for a"
         thirdTitle="clean and polished finish"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -40,7 +40,7 @@ const HeroSection = () => {
       />
       <Slider
         firstTitle="Welcome to shinework"
-        secondTitle="Welcome to shinework Trust the professionals for a"
+        secondTitle="Trust the professionals for a"
         thirdTitle="clean and polished finish"
         paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
