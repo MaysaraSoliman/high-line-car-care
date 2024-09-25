@@ -14,6 +14,7 @@ export const StyledBackGroundSection = styled.section<BackgroundProps>`
   padding: 200px 0;
   .info-box {
     text-align: center;
+    margin: 0 15px;
     h1 {
     }
     h3 {
