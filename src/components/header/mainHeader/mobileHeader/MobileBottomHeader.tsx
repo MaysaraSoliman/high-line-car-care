@@ -29,7 +29,7 @@ const MobileBottomHeader = () => {
         <div className="right-col">
           <RxHamburgerMenu className="burger-icon" onClick={showDrawer} />
           <Drawer title="Menu" onClose={onClose} open={open}>
-            <Navbar mode={"vertical"} />
+            <Navbar mode={"vertical"} onClose={onClose} />
           </Drawer>
         </div>
       </StyledMobileBottomHeader>

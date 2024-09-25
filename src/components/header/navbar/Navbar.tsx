@@ -23,12 +23,9 @@ const items = [
   },
 ];
 
-const Navbar = ({ mode }: { mode: string }) => {
+const Navbar = ({ mode, onClose }: { mode: string; onClose: () => void }) => {
   const pathname = usePathname();
   const [current, setCurrent] = useState(pathname);
-  // const onClick = (e: any) => {
-  //   // setCurrent(e.key);
-  // };
 
   useEffect(() => {
     setCurrent(pathname);
@@ -38,7 +35,7 @@ const Navbar = ({ mode }: { mode: string }) => {
   return (
     <nav className="nav">
       <StyledMenu
-        // onClick={onClick}
+        onClick={onClose}
         selectedKeys={[current]}
         mode={styledMenuMode}
         items={items}
