@@ -1,3 +1,4 @@
+import ContactUs from "@/components/contactUs/ContactUs";
 import Counting from "@/components/counting/Counting";
 import HeroSection from "@/components/heroSection/HeroSection";
 import HowItWork from "@/components/howItWork/HowItWork";
@@ -20,6 +21,7 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <HowItWork />
+      <ContactUs />
     </section>
   );
 }

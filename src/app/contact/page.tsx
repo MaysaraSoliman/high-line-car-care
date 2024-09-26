@@ -1,4 +1,5 @@
 import BackGround from "@/components/backGround/BackGround";
+import Map from "@/components/map/Map";
 
 const ContactPage = () => {
   return (
@@ -8,6 +9,7 @@ const ContactPage = () => {
         mainTitle="Contact us"
         subTitle="Start the conversation to established good relationship and business."
       />
+      <Map />
     </>
   );
 };
