@@ -12,7 +12,6 @@ const ContactUsSlider = () => {
     <StyledContactUsSlider className="container contact-us-container">
       <Row gutter={56}>
         <Col className="map-col" xs={24} md={24} lg={14}>
-          <div className="overlay-black"></div>
           <div className="map">
             <iframe
               id="mapFrame"
